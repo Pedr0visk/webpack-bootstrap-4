@@ -1,7 +1,8 @@
 import { NegociacaoController } from './controllers/NegociacaoController.js';
 import { Negociacao } from './domain/index.js';
 import 'bootstrap';
-import '../css/meucss.css';
+import 'bootstrap/scss/bootstrap.scss';
+import '../scss/meucss.scss';
 
 $('h1').click(() => alert('você me clicou'));
 console.log($('h1').modal);
